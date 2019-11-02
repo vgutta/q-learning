@@ -152,6 +152,7 @@ def qlearning(board):
             current = nextState(current, action)
         current = start # returns to start after exit state
 
+# prints q values for the index provided
 def printqvalues(board, index):
     for j in range(board_size):
         for i in range(board_size):
